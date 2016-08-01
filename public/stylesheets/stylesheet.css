@@ -1,0 +1,237 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
+
+.header {
+  height: 50px;
+  background-color: #E9E9E9;
+}
+
+
+.bold-text {
+  font-weight: bold;
+}
+
+.graph {
+  width: 205px;
+}
+
+
+
+#second-widg {
+  padding-left: 10px;
+}
+
+#time-image {
+  width: 200px;
+}
+
+.widget-item {
+  list-style: none;
+}
+
+
+
+.filter {
+  height: 150px;
+  border-bottom: 3px solid #F3F3F3;
+
+}
+
+.widget {
+  height: 180px;
+  border-bottom: 3px solid #F3F3F3;
+  padding-top: 20px;
+}
+
+.times  {
+  padding-top: 30px;
+  height: 260px;
+  border-bottom: 3px solid #F3F3F3;
+}
+
+.header-tab {
+  height: 50px;
+  background-color: #F8F8F8;
+  border-bottom: 3px solid #F3F3F3;
+  border-top: 3px solid #F3F3F3;
+}
+
+
+.filer1-inline {
+  display: inline;
+}
+
+
+.rates {
+  padding-left: 43px;
+  padding-top: 106px;
+  font-size: 17px;
+}
+
+
+.flight-image {
+  height: 48px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+
+
+.calendar {
+  width: 1030px;
+  padding-left: 153px;
+  padding-top: 1px;
+  margin-left: 119px;
+}
+
+
+
+.flight-header {
+  height: 80px;
+  background-color: white;
+}
+
+
+.price-sort {
+  float: right;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+
+.details-button {
+  width: 80px;
+}
+
+
+.fares-button {
+  width: 80px;
+  margin-left: 10px;
+}
+
+
+
+#inline-id {
+  display: -webkit-inline-box;
+}
+
+
+
+.inline-text {
+  display: -webkit-inline-box;
+}
+
+
+
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.opaque {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+
+
+
+.flight-info {
+  background-color: black;
+}
+
+
+
+
+
+.test {
+  margin: -39px;
+}
+
+
+.flight-count {
+  padding-top: 30px;
+  padding-left: 40px;
+  float: left;
+  font-size: 1.2em;
+}
+
+
+
+.flight-details {
+  height: 245px;
+  border-bottom: 3px solid #F3F3F3;
+}
+
+
+.flight-ad {
+  height: 250px;
+  background-color: #F8F8F8;
+  border-top: 3px solid #F3F3F3;
+  border-bottom: 3px solid #F3F3F3;
+  padding-left: 210px;
+}
+
+.div-logos {
+  width: 47px;
+}
+
+
+.flight-div {
+  height: 250px;
+  padding-left: 210px;
+}
+
+.flight-ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+#logo {
+    float: right;
+    margin-top: 96px;
+    width: 130px;
+    margin-right: 163px;
+}
+
+
+
+.select-button {
+  width: 120px;
+  height: 25px;
+  background-color: #EA8419;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-left: 39px;
+  position: absolute;
+}
+
+
+
+.sidebar {
+  width: 210px;
+  background-color: #F9F9F9;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  border-right: 3px solid #F3F3F3;
+
+}
+
+.main-container {
+
+  /*background-color: blue;*/
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-left: 210px;
+}

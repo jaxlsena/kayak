@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./stylesheets/stylesheet.css" media="screen" title="no title" charset="utf-8">
+    <title>send help</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <img class="flight-image" src="./images/flight_tab.png" alt="flight tabs" />
+    </div>
+
+    <div class="header-tab">
+      <img class="calendar" src="./images/calendar.png" alt="calendar" />
+    </div>
+
+    <div class="sidebar">
+      <div class="filter">
+        <ul class="filter1">
+          <li class="filter1-inline"><a  href="#">price alert</a></li>
+          <li class="filter1-inline"><a  href="#">fare charts</a></li>
+          <li class="filter1-inline"><a href="#">airline fees</a></li>
+
+
+        </ul>
+        <p>
+          <label>Flex Dates:</label>
+          <a href="#">+3 days</a> | <a href="#">Explorer</a>
+        </p>
+      </div>
+
+      <div class="widget">
+        <img class="graph" src="./images/graph.png" alt="graph" />
+      </div>
+      <div id="second-widg" class="widget">
+        <span class="bold-text">Stops</span>
+          <p><input type="checkbox" /> nonstop $863</p>
+          <p><input type="checkbox" /> 1stop $1000</p>
+          <p><input type="checkbox" /> 2+stops $2731</p>
+          <a href="#"><p class="show-airline">Show airline/stop price matrix</p></a>
+      </div>
+      <div class="times">
+        <img id="time-image" src="./images/slides.png" alt="slides" />
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="flight-header">
+        <p class="flight-count"><span class="bold-text">15</span> of <span class="bold-text">64 flights</span></p>
+        <p class="price-sort"><span class="bold-text">Sort by price(low to high)</span></p>
+      </div>
+    </div>
+
+    <div class="flight-ad">
+      <div class="rate-container">
+        <span><img id="logo"src="./images/logo.jpg" alt="icelandair logo" /></span>
+        <span class="bold-text"><p class="rates">Check Rates <span>  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Fasts Flights. More Legroom. 2 Bags Free</span></p></span>
+        <p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   save time and money with icelandair on your way to Reykavik </p>
+        <button class="select-button">Select</button>
+      </div>
+    </div>
+
+    <div class="flight-details">
+      <div class="flight-div">
+        <ul class="flight-ul">
+          <li><p class="bold">$863 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img class="div-logos" src="./images/logo.jpg" alt="airline logo" />&emsp;&emsp;&emsp;&emsp; Icelandair</p></li>
+          <li><p class="opaque">KAYAK</p></li>
+          <li><span class="test"><button class="select-button">Select</button></span></li></br>
+          <li><a id="inline-id" href="#"><p>Orbitz &emsp; &emsp; &emsp; &emsp;  $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; JFK &emsp;&emsp; 2:10p &emsp; -> &emsp; KEF &emsp; 11:40p &emsp; 5h30m &emsp; nonstop</li>
+          <li ><a class="inline-text" href="#"><p>Cheap tickets &emsp; $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  KEF &emsp; 10:30a &emsp; -> &emsp; JFK &emsp; 12:25p &emsp; 5hr55m &emsp; nonstop</li>
+          <li><a href="#"><p class="inline-text">6 more sites &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a></p>&emsp;&emsp;&emsp;<button class="details-button" type="button" name="Details">Details</button><button class="fares-button" type="button" name="Fares">Fares</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flight-details">
+      <div class="flight-div">
+        <ul class="flight-ul">
+          <li><p class="bold">$863 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img class="div-logos" src="./images/logo.jpg" alt="airline logo" />&emsp;&emsp;&emsp;&emsp; Icelandair</p></li>
+          <li><p class="opaque">KAYAK</p></li>
+          <li><span class="test"><button class="select-button">Select</button></span></li></br>
+          <li><a id="inline-id" href="#"><p>Orbitz &emsp; &emsp; &emsp; &emsp;  $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; EWR &emsp;&emsp; 8:45p &emsp; -> &emsp; KEF &emsp; 6:15a &emsp; 5h30m &emsp; nonstop</li>
+          <li ><a class="inline-text" href="#"><p>Cheap tickets &emsp; $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  KEF &emsp; 10:30a &emsp; -> &emsp; JFK &emsp; 12:25p &emsp; 5hr55m &emsp; nonstop</li>
+          <li><a href="#"><p class="inline-text">6 more sites &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a></p>&emsp;&emsp;&emsp;<button class="details-button" type="button" name="Details">Details</button><button class="fares-button" type="button" name="Fares">Fares</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flight-details">
+      <div class="flight-div">
+        <ul class="flight-ul">
+          <li><p class="bold">$863 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img class="div-logos" src="./images/logo.jpg" alt="airline logo" />&emsp;&emsp;&emsp;&emsp; Icelandair</p></li>
+          <li><p class="opaque">KAYAK</p></li>
+          <li><span class="test"><button class="select-button">Select</button></span></li></br>
+          <li><a id="inline-id" href="#"><p>Orbitz &emsp; &emsp; &emsp; &emsp;  $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; JFK &emsp;&emsp; 8:40p &emsp; -> &emsp; KEF &emsp; 6:15a &emsp; 5h35m &emsp; nonstop</li>
+          <li ><a class="inline-text" href="#"><p>Cheap tickets &emsp; $902</p></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  KEF &emsp; 10:30a &emsp; -> &emsp; JFK &emsp; 12:25p &emsp; 5hr55m &emsp; nonstop</li>
+          <li><a href="#"><p class="inline-text">6 more sites &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a></p>&emsp;&emsp;&emsp;<button class="details-button" type="button" name="Details">Details</button><button class="fares-button" type="button" name="Fares">Fares</button></li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
