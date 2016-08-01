@@ -85,6 +85,11 @@ body{
 
 
 
+.grey {
+  color: grey;
+}
+
+
 .calendar {
   width: 1030px;
   padding-left: 153px;
